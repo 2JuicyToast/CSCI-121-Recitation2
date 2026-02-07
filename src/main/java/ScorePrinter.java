@@ -47,7 +47,7 @@ public class ScorePrinter {
         // Print the final score.
         // Format:
         // Final score: <sum of homeworkPart and examPart>
-        System.out.print("Final score: " + homeworkPart + examPart);
+        System.out.println("Final score: " + homeworkPart + examPart);
     }
 }
 
