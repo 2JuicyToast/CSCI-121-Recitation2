@@ -21,11 +21,18 @@ public class ScorePrinter {
         // Print the homework score and exam score on one line.
         // Format:
         // Homework Score and Exam Score: <homeworkScore> <examScore>
+        System.out.print("Homework Score and Exam Score: ");
+        System.out.print(homeworkScore + "");
+        System.out.println(examScore);
 
         // TODO 2:
         // Print the homework weight and exam weight on one line.
         // Format:
         // Homework Weight and Exam Weight: <homeworkWeight> <examWeight>
+
+        System.out.print("Homework Weight and Exam Weight: ");
+        System.out.print(homeworkWeight + "");
+        System.out.println(examWeight);
 
         double homeworkPart =
                 homeworkScore * homeworkWeight / totalWeight;
@@ -40,6 +47,7 @@ public class ScorePrinter {
         // Print the final score.
         // Format:
         // Final score: <sum of homeworkPart and examPart>
+        System.out.print("Final score: " + homeworkPart + examPart);
     }
 }
 
